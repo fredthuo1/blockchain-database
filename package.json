@@ -1,0 +1,21 @@
+{
+  "name": "database-system",
+  "version": "1.0.0",
+  "description": "\"# database-system\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm start\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  }
+}
