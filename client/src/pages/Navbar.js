@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <h2 className="navbar-brand">Ripple Frontend</h2>
+            <h2 className="navbar-brand">Blockchain Database</h2>
             <div className="navbar-links">
                 <Link to="/sign-up" className="navbar-link">Signup</Link>
                 <Link to="/login" className="navbar-link">Login</Link>

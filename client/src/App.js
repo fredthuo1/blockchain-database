@@ -8,7 +8,6 @@ import CheckBalance from './pages/CheckBalance';
 import SendXRP from './pages/SendXRP';
 import MonitorTransaction from './pages/MonitorTransaction';
 import TransactionHistory from './pages/TransactionHistory';
-import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
     return (
