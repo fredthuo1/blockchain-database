@@ -1,6 +1,6 @@
 const ripple = require('ripple-lib');
 const api = new ripple.RippleAPI({
-    server: 'wss://s.devnet.rippletest.net:51233'
+    server: 'wss://s.altnet.rippletest.net:51233/'
 });
 
 // Get Balance
